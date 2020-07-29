@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>횡단중 일어난 사고 정보</h1>
+    <hr>
+    {{ data.to_html()|safe }}
+{% endblock %}

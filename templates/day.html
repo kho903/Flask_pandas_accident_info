@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+    <h1>서울 요일별</h1>
+    <h2 style="color: red;">사망자 수, 사상자 수</h2>
+    <hr>
+    {{ data.to_html()|safe }}
+{% endblock %}

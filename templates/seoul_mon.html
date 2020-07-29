@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>서울지역 월요일에 발생한</h1>
+    <h2 style="color: red;">사상자수</h2>
+    {{ data.to_html()|safe }}
+{% endblock %}
